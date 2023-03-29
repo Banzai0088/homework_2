@@ -5,10 +5,9 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-// Console.Write("Введи трёхзначное число: ");
-// int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
-// string stringNumber = Convert.ToString(threeDigitNumber);
-// Console.WriteLine("вторая цифра этого числа -> "+stringNumber[1]);
+// Console.WriteLine("Введи трёхзначное число: ");
+// string Number = Console.ReadLine();
+// Console.WriteLine("вторая цифра этого числа -> "+ Number[1]);
 
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
@@ -16,11 +15,11 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-// Console.Write("Введи число: ");
-// int anyNumber = Convert.ToInt32(Console.ReadLine());
-// string anyNumberText = Convert.ToString(anyNumber);
-// if (anyNumberText.Length > 2){
-//   Console.WriteLine("третья цифра -> " + anyNumberText[2]);
+// Console.WriteLine("Введи число:");
+// string Number = Console.ReadLine();
+
+// if (Number.Length > 2){
+//   Console.WriteLine("третья цифра -> " + Number[2]);
 // }
 // else {
 //   Console.WriteLine("-> третьей цифры нет");
@@ -31,7 +30,7 @@
 // 7 -> да
 // 1 -> нет
 
-// Console.Write("Введи цифру, обозначающую день недели: ");
+// Console.WriteLine("Введи цифру, обозначающую день недели: ");
 // int dayNumber = Convert.ToInt32(Console.ReadLine());
 
 // void CheckingTheDayOfTheWeek (int dayNumber) {
